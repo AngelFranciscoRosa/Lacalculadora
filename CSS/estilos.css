@@ -1,0 +1,43 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #06e487;
+}
+
+/* Estilos para el tablero */
+.tablero {
+    border: 2px solid #333;
+}
+.fichas{width:40px;height:45px;}
+.table {
+    border-collapse: collapse;
+    width: 490px;
+    height: 480px;
+}
+
+td{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size: 24px;
+    border: 2px solid #000; 
+}
+
+/* Estilos para las celdas */
+.blanco {
+    background-color: #774343;
+}
+
+.negro {
+    background-color: #fff;
+    color: #fff;
+}
+.numero{background-color: #05ff2f;}
+.letra{background-color: #05ff2f;}
+.esquina{background-color: #05ff2f;}
